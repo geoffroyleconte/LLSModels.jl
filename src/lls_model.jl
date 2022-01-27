@@ -1,7 +1,7 @@
 export LLSModel
 
 """
-    nls = LLSModel(A, b; lvar, uvar, C, lcon, ucon)
+    nls = LLSModel(A, b; x0, lvar, uvar, C, lcon, ucon, y0, name)
 
 Creates a Linear Least Squares model ``\\tfrac{1}{2}\\|Ax - b\\|^2`` with optional bounds
 `lvar ≦ x ≦ uvar` and optional linear constraints `lcon ≦ Cx ≦ ucon`.

@@ -1,7 +1,9 @@
 [deps]
 Documenter = "e30172f5-a6a5-5a46-863b-614d45cd2de4"
 NLPModels = "a4795742-8479-5a88-8948-cc11e1c8c1a6"
+NLPModelsModifiers = "e01155f1-5c6f-4375-a9d8-616dd036575f"
+QuadraticModels = "f468eda6-eac5-11e8-05a5-ff9e497bcd19"
+RipQP = "1e40b3f8-35eb-4cd8-8edd-3e515bb9de08"
 
 [compat]
 Documenter = "~0.26"
-NLPModels = "0.18"
